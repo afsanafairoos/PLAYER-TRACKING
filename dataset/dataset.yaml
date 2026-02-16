@@ -1,0 +1,26 @@
+# SC549 Player Tracking Dataset Configuration
+# Generated: 2026-02-16 18:09:00
+
+# Dataset paths
+path: /content/drive/MyDrive/player tracking/dataset  # Dataset root directory
+train: videos  # Training videos directory
+val: videos    # Validation videos directory (same for this project)
+
+# Class names for detection
+# Using COCO dataset classes (YOLOv8 is pre-trained on COCO)
+names:
+  0: person      # Primary class of interest for player detection
+  32: sports ball  # Secondary class for ball detection (optional)
+
+# Dataset information
+nc: 2  # Number of classes
+
+# Video specifications
+video_format: ['.mp4', '.avi', '.mov']
+video_duration: 5-10 seconds
+video_count: 5-10
+
+# Notes:
+# - This is a video-based detection project
+# - We focus on 'person' class (class 0) for player detection
+# - Models are pre-trained; no additional training required for basic usage

@@ -1,0 +1,26 @@
+{
+  "project": "SC549 Player Tracking in Football Videos",
+  "generated": "2026-02-16 18:15:30",
+  "models": {
+    "detection": "YOLOv8n",
+    "pose": "YOLOv8n-pose",
+    "tracking": "ByteTrack"
+  },
+  "device": "cuda",
+  "summary": {
+    "detection": {
+      "total_videos": 6,
+      "total_frames": 961,
+      "total_detections": 10188,
+      "avg_detections_per_frame": 10.6
+    },
+    "pose": {
+      "total_poses": 4682,
+      "total_keypoints": 51412,
+      "avg_keypoints_per_pose": 10.98
+    },
+    "tracking": {
+      "total_unique_players_tracked": 494
+    }
+  }
+}
