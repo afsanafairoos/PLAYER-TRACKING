@@ -1,6 +1,6 @@
-SC549 Neural Networks – Assignment 3
+Neural Networks – Assignment 3
 Player Tracking in Football Videos
-CSC2451
+
 1. Project Overview
 This project implements an automated football player tracking system using deep learning. The system integrates:
 •	Detection: Ultralytics YOLOv8n
